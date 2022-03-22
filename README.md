@@ -1,2 +1,2 @@
 # split-by-silence
-This shell scripttrim silence automaticaly in multiple .wav files in folder
+This shell script trim silence automaticaly in multiple .wav files in folder
