@@ -24,7 +24,7 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
       - name: Send skype
-        uses: bobimicroweber/docker-action-send-skype@v2
+        uses: bobimicroweber/docker-action-send-skype@main
         with:
           # Required skype username:
           skype_username : ${{ secrets.SKYPE_USERNAME }}
