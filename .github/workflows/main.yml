@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: SkypeBot
 
 # Controls when the workflow will run
 on:
@@ -35,5 +35,5 @@ jobs:
           skype_ids      : live:selfworksbg 
           # Optional (recommended): the path of message file or message file's folder [support emoji]
           send_msg_text  : Unit testa mina!! :D Mega qko! :)
-          # Optional (recommended): the path of attach file or attach file's folder 
+          # Optional (recommended): the path of attach file or attach file's folder   
           send_file_path : download/
